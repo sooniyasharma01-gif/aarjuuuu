@@ -73,7 +73,7 @@ export default function Rates() {
         <p className="deposit-card-title">Booking & Deposit</p>
         <div className="deposit-row">
           <span className="deposit-icon">💳</span>
-          <span>A <strong>£70 deposit</strong> is due via <strong>UPI / Indian Bank Transfer</strong> at the time of booking — this goes towards your total. The remainder is also due via <strong>UPI / Indian Bank Transfer</strong> prior to meeting.</span>
+          <span>A <strong>£70 deposit</strong> is due via <strong>Bank Transfer</strong> at the time of booking — this goes towards your total. The remainder is also due via <strong>Bank Transfer</strong> prior to meeting.</span>
         </div>
         <div className="deposit-row">
           <span className="deposit-icon">⏰</span>
@@ -84,15 +84,15 @@ export default function Rates() {
           <span>In the rare event I must cancel, your deposit will be fully refunded. <em>(20% retained for dates 5 hours or more.)</em></span>
         </div>
         <div className="deposit-notice">
-          <p className="deposit-notice-title">Important — Payment to Indian Account</p>
-          <p>I'm currently in the <strong>UK on a student visa</strong>, which means I'm unable to accept payments into a UK bank account. All payments must be made to my <strong>Indian bank account</strong> — this is a legal requirement for my visa situation and I appreciate your understanding.</p>
-          <p className="deposit-notice-footer">This arrangement has worked smoothly with every client. You are in safe hands — I take my reputation seriously and every transaction is handled with complete honesty.</p>
+          <p className="deposit-notice-title">Payment Information</p>
+          <p>For my personal safety, payments are made to a <strong>dedicated account</strong> that is not directly linked to my personal identity. This is a boundary I hold firmly and is non-negotiable — it protects both my privacy and yours.</p>
+          <p className="deposit-notice-footer">Many companions operate this way. It is completely normal and every client has found it simple and reassuring.</p>
         </div>
-        <div className="deposit-notice" style={{marginTop: '14px'}}>
+        {/* <div className="deposit-notice" style={{marginTop: '14px'}}>
           <p className="deposit-notice-title">Security Deposit</p>
           <p>A <strong>security deposit equal to the full service charge</strong> is required prior to every booking. This is held as a guarantee of good faith from both sides and is <strong>fully refunded</strong> at the end of our time together, provided the agreed terms are respected.</p>
           <p className="deposit-notice-footer">This protects both of us and ensures every encounter begins with mutual trust and respect.</p>
-        </div>
+        </div> */}
       </div>
 
       {/* RATES */}
@@ -150,6 +150,9 @@ export default function Rates() {
         <h4>Are there two of you?</h4>
         <p>For couples, simply add <strong>£200</strong> to any rate above.</p>
       </div>
+
+      {/* SECURITY DEPOSIT - subtle */}
+      <p className="security-deposit-note">† A refundable security deposit equal to the service charge is required at the time of booking. This is returned in full at the conclusion of our time together.</p>
 
     </div>
   );

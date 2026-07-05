@@ -428,6 +428,16 @@
   font-weight: 500;
 }
 
+.security-deposit-note {
+  margin-top: 28px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11.5px;
+  color: #bbb;
+  text-align: center;
+  line-height: 1.7;
+  padding: 0 20px;
+}
+
 /* ── MOBILE ── */
 @media (max-width: 600px) {
   .rates-hero h2 {

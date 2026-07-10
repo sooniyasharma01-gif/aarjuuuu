@@ -1,0 +1,1 @@
+export PATH="/usr/local/opt/node@22/bin:$PATH" && rm -rf docs && npm run build && mv dist docs && git add . && git commit -m "update site" && git push

@@ -73,7 +73,7 @@ export default function Rates() {
         <p className="deposit-card-title">Booking & Deposit</p>
         <div className="deposit-row">
           <span className="deposit-icon">💳</span>
-          <span>A <strong>£70 deposit</strong> is due via <strong>Bank Transfer</strong> at the time of booking — this goes towards your total. The remainder is also due via <strong>Bank Transfer</strong> prior to meeting.</span>
+          <span>A <strong>£70 deposit</strong> is due via <strong>Indian Bank Transfer / UPI</strong> at the time of booking — this goes towards your total. The remainder is also due via <strong>Indian Bank Transfer / UPI</strong> prior to meeting.</span>
         </div>
         <div className="deposit-row">
           <span className="deposit-icon">⏰</span>
@@ -86,6 +86,7 @@ export default function Rates() {
         <div className="deposit-notice">
           <p className="deposit-notice-title">Payment Information</p>
           <p>For my personal safety, payments are made to a <strong>dedicated account</strong> that is not directly linked to my personal identity. This is a boundary I hold firmly and is non-negotiable — it protects both my privacy and yours.</p>
+          <p>Payments are made to an <strong>Indian bank account</strong> via <strong>UPI or Bank Transfer</strong>. Full account details will be shared privately upon booking confirmation.</p>
           <p className="deposit-notice-footer">Many companions operate this way. It is completely normal and every client has found it simple and reassuring.</p>
         </div>
         {/* <div className="deposit-notice" style={{marginTop: '14px'}}>

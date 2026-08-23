@@ -6,7 +6,7 @@
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(201, 169, 110, 0.15);
+  border-bottom: 1px solid rgba(176, 125, 158, 0.15);
   z-index: 1000;
 }
 
@@ -58,13 +58,13 @@
   left: 0;
   width: 0;
   height: 1px;
-  background: #c9a96e;
+  background: #b07d9e;
   transition: width 0.3s ease;
 }
 
 .nav a:hover,
 .nav a.active {
-  color: #c9a96e;
+  color: #b07d9e;
 }
 
 .nav a:hover::after,
@@ -89,7 +89,7 @@
   padding-bottom: 14px; /* extends hover zone down to cover the gap */
 }
 
-.nav-more:hover { color: #c9a96e; }
+.nav-more:hover { color: #b07d9e; }
 
 .dropdown-menu {
   position: absolute;
@@ -102,7 +102,7 @@
 .dropdown-menu-inner {
   background: rgba(255,255,255,0.97);
   backdrop-filter: blur(16px);
-  border: 1px solid rgba(201,169,110,0.2);
+  border: 1px solid rgba(176,125,158,0.2);
   border-radius: 14px;
   padding: 10px 0;
   min-width: 160px;
@@ -128,8 +128,8 @@
 }
 
 .dropdown-menu a:hover {
-  color: #c9a96e;
-  background: rgba(201,169,110,0.05);
+  color: #b07d9e;
+  background: rgba(176,125,158,0.05);
 }
 
 /* HAMBURGER */
@@ -169,7 +169,7 @@
   display: none;
   background: rgba(255, 255, 255, 0.97);
   backdrop-filter: blur(12px);
-  border-top: 1px solid rgba(201, 169, 110, 0.15);
+  border-top: 1px solid rgba(176, 125, 158, 0.15);
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.4s ease;
@@ -195,12 +195,12 @@
   font-size: 11px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  border-bottom: 1px solid rgba(201, 169, 110, 0.08);
+  border-bottom: 1px solid rgba(176, 125, 158, 0.08);
   transition: color 0.2s, background 0.2s;
 }
 
 .mobile-menu-grid a:nth-child(odd) {
-  border-right: 1px solid rgba(201, 169, 110, 0.08);
+  border-right: 1px solid rgba(176, 125, 158, 0.08);
 }
 
 .mobile-menu-grid a:nth-last-child(-n+2) {
@@ -209,8 +209,8 @@
 
 .mobile-menu-grid a:hover,
 .mobile-menu-grid a.active {
-  color: #c9a96e;
-  background: rgba(201, 169, 110, 0.04);
+  color: #b07d9e;
+  background: rgba(176, 125, 158, 0.04);
 }
 
 @media (max-width: 768px) {

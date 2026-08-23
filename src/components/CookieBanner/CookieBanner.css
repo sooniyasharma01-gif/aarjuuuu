@@ -6,7 +6,7 @@
   z-index: 9000;
   background: rgba(26, 20, 16, 0.95);
   backdrop-filter: blur(16px);
-  border: 1px solid rgba(201,169,110,0.2);
+  border: 1px solid rgba(176,125,158,0.2);
   border-radius: 100px;
   padding: 14px 24px;
   display: flex;
@@ -31,7 +31,7 @@
 }
 
 .cookie-banner button {
-  background: linear-gradient(135deg, #c9a96e, #b8892e);
+  background: linear-gradient(135deg, #b07d9e, #8e4a7a);
   color: #fff;
   border: none;
   border-radius: 100px;
@@ -46,7 +46,7 @@
 }
 
 .cookie-banner button:hover {
-  box-shadow: 0 4px 16px rgba(201,169,110,0.4);
+  box-shadow: 0 4px 16px rgba(176,125,158,0.4);
 }
 
 @media (max-width: 600px) {

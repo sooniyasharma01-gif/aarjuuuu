@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./NotePopup.css";
 
-const WA_URL = "https://wa.me/447868175399?text=Hi%20Teena%2C%20I%27d%20love%20to%20connect%20with%20you.";
+const WA_URL = "https://wa.me/447848433367?text=Hi%20Aarju%2C%20I%27d%20love%20to%20connect%20with%20you.";
 
 export default function NotePopup() {
   const [visible, setVisible] = useState(false);
@@ -24,9 +24,9 @@ export default function NotePopup() {
   return (
     <div className="note-popup">
       <button className="note-close" onClick={dismiss}>✕</button>
-      <div className="note-avatar">T</div>
+      <div className="note-avatar">A</div>
       <div className="note-content">
-        <p className="note-name">Teena <span className="note-online" /></p>
+        <p className="note-name">Aarju <span className="note-online" /></p>
         <p className="note-msg">Still browsing? I'd love to hear from you 👋</p>
         <a href={WA_URL} target="_blank" rel="noopener noreferrer" className="note-btn" onClick={dismiss}>
           Say Hello on WhatsApp

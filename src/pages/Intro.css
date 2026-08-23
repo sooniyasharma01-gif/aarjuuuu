@@ -24,7 +24,7 @@
   font-size: 11px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: #c9a96e;
+  color: #b07d9e;
   margin-bottom: 16px;
 }
 
@@ -40,7 +40,7 @@
 
 .intro-text h2 em {
   font-style: italic;
-  color: #c9a96e;
+  color: #b07d9e;
 }
 
 .intro-divider {
@@ -61,7 +61,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #c9a96e;
+  background: #b07d9e;
   flex-shrink: 0;
 }
 
@@ -99,7 +99,7 @@
   font-size: 32px;
   font-style: italic;
   font-weight: 300;
-  color: #c9a96e;
+  color: #b07d9e;
   margin-top: 4px;
 }
 
@@ -135,7 +135,7 @@
   left: -20px;
   background: rgba(255,255,255,0.92);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(201,169,110,0.3);
+  border: 1px solid rgba(176,125,158,0.3);
   border-radius: 12px;
   padding: 14px 20px;
   z-index: 2;
@@ -147,7 +147,7 @@
   font-size: 11px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #c9a96e;
+  color: #b07d9e;
   margin: 0 0 2px;
 }
 
@@ -163,7 +163,7 @@
   overflow: hidden;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  background: linear-gradient(135deg, #1a1410, #2a1f14);
+  background: linear-gradient(135deg, #1a1018, #2a152a);
   padding: 16px 0;
   margin-bottom: 80px;
 }
@@ -184,7 +184,7 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: 15px;
   font-style: italic;
-  color: rgba(201,169,110,0.8);
+  color: rgba(176,125,158,0.8);
   letter-spacing: 2px;
   white-space: nowrap;
   flex-shrink: 0;
@@ -200,7 +200,7 @@
   font-size: 11px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: #c9a96e;
+  color: #b07d9e;
   text-align: center;
   margin-bottom: 12px;
 }
@@ -238,7 +238,7 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: 15px;
   font-style: italic;
-  color: #c9a96e;
+  color: #b07d9e;
   white-space: nowrap;
 }
 
@@ -252,9 +252,9 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #c9a96e;
+  background: #b07d9e;
   border: 2px solid #fff;
-  box-shadow: 0 0 0 3px rgba(201,169,110,0.25);
+  box-shadow: 0 0 0 3px rgba(176,125,158,0.25);
   flex-shrink: 0;
   margin-top: 4px;
 }
@@ -263,7 +263,7 @@
   width: 1px;
   flex: 1;
   min-height: 48px;
-  background: linear-gradient(to bottom, rgba(201,169,110,0.4), rgba(201,169,110,0.1));
+  background: linear-gradient(to bottom, rgba(176,125,158,0.4), rgba(176,125,158,0.1));
   margin: 6px 0;
 }
 
@@ -293,7 +293,7 @@
   text-align: center;
   margin-top: 80px;
   padding: 64px 32px;
-  background: linear-gradient(135deg, #1a1410 0%, #2a1f14 100%);
+  background: linear-gradient(135deg, #1a1018 0%, #2a152a 100%);
   border-radius: 24px;
   position: relative;
   overflow: hidden;
@@ -303,7 +303,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at center, rgba(201,169,110,0.12) 0%, transparent 70%);
+  background: radial-gradient(ellipse at center, rgba(176,125,158,0.12) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -312,7 +312,7 @@
   font-size: 11px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: rgba(201,169,110,0.7);
+  color: rgba(176,125,158,0.7);
   margin-bottom: 16px;
 }
 
@@ -343,7 +343,7 @@
 }
 
 .intro-cta-primary {
-  background: linear-gradient(135deg, #c9a96e, #b8892e);
+  background: linear-gradient(135deg, #b07d9e, #8e4a7a);
   color: #fff;
   text-decoration: none;
   border-radius: 100px;
@@ -352,13 +352,13 @@
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  box-shadow: 0 4px 20px rgba(201,169,110,0.35);
+  box-shadow: 0 4px 20px rgba(176,125,158,0.35);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .intro-cta-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 28px rgba(201,169,110,0.5);
+  box-shadow: 0 8px 28px rgba(176,125,158,0.5);
 }
 
 .intro-cta-secondary {
@@ -422,7 +422,7 @@
   font-size: 11px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: #c9a96e;
+  color: #b07d9e;
   margin-bottom: 24px;
 }
 
@@ -439,7 +439,7 @@
   gap: 8px;
   background: rgba(255,255,255,0.7);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(201,169,110,0.2);
+  border: 1px solid rgba(176,125,158,0.2);
   border-radius: 100px;
   padding: 10px 20px;
   font-family: 'DM Sans', sans-serif;
@@ -483,7 +483,7 @@
 .section-divider-diamond {
   width: 8px;
   height: 8px;
-  background: #c9a96e;
+  background: #b07d9e;
   transform: rotate(45deg);
   flex-shrink: 0;
 }
@@ -539,7 +539,7 @@
   font-size: 11px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: #c9a96e;
+  color: #b07d9e;
   margin-bottom: 32px;
 }
 
@@ -548,7 +548,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
-  border: 1px solid rgba(201,169,110,0.2);
+  border: 1px solid rgba(176,125,158,0.2);
   border-radius: 14px;
   overflow: hidden;
   background: rgba(255,255,255,0.55);
@@ -558,8 +558,8 @@
 
 .info-cell {
   padding: 14px 18px;
-  border-bottom: 1px solid rgba(201,169,110,0.12);
-  border-right: 1px solid rgba(201,169,110,0.12);
+  border-bottom: 1px solid rgba(176,125,158,0.12);
+  border-right: 1px solid rgba(176,125,158,0.12);
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
   line-height: 1.7;
@@ -584,7 +584,7 @@
   font-size: 10px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #c9a96e;
+  color: #b07d9e;
   margin-bottom: 3px;
   font-weight: 500;
 }
@@ -600,7 +600,7 @@
   font-size: 11px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: #c9a96e;
+  color: #b07d9e;
   margin-bottom: 12px;
 }
 
@@ -622,7 +622,7 @@
 .why-card {
   background: rgba(255, 255, 255, 0.65);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(201, 169, 110, 0.2);
+  border: 1px solid rgba(176, 125, 158, 0.2);
   border-radius: 18px;
   padding: 36px 26px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -637,7 +637,7 @@
 .why-icon {
   display: block;
   font-size: 22px;
-  color: #c9a96e;
+  color: #b07d9e;
   margin-bottom: 16px;
 }
 
@@ -666,7 +666,7 @@
   gap: 12px;
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(201, 169, 110, 0.25);
+  border: 1px solid rgba(176, 125, 158, 0.25);
   border-radius: 100px;
   padding: 14px 28px;
   margin: 0 auto 80px;
@@ -835,7 +835,7 @@
   }
 
   .info-cell:nth-last-child(-n+2) {
-    border-bottom: 1px solid rgba(201,169,110,0.12);
+    border-bottom: 1px solid rgba(176,125,158,0.12);
   }
 
   .info-cell:last-child {

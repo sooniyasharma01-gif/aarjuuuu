@@ -11,7 +11,7 @@
 .privacy-body section {
   background: rgba(255,255,255,0.6);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(201,169,110,0.15);
+  border: 1px solid rgba(176,125,158,0.15);
   border-radius: 16px;
   padding: 28px 32px;
 }
@@ -50,7 +50,7 @@
 }
 
 .privacy-body a {
-  color: #c9a96e;
+  color: #b07d9e;
   text-decoration: underline;
   text-underline-offset: 3px;
 }

@@ -11,9 +11,9 @@ body {
   font-weight: 300;
   background: linear-gradient(
     180deg,
-    #faf9f7 0%,
-    #fff8ee 50%,
-    #f7ede0 100%
+    #faf7fa 0%,
+    #fff0f8 50%,
+    #f7e4f0 100%
   );
   color: #222;
   min-height: 100vh;
@@ -84,14 +84,14 @@ html {
 
 .reveal-scale {
   opacity: 0;
-  transform: scale(0.94);
+  transform: translateY(36px);
   transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
               transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .reveal-scale.revealed {
   opacity: 1;
-  transform: scale(1);
+  transform: translateY(0);
 }
 
 /* stagger delays for card groups */
@@ -106,27 +106,21 @@ html {
 ══════════════════════════════════ */
 
 @keyframes page-enter {
-  from { opacity: 0; transform: translateY(24px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 @keyframes curtain-in {
-  0%   { transform: scaleY(1); transform-origin: top; }
-  100% { transform: scaleY(0); transform-origin: top; }
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 .page-enter {
-  animation: page-enter 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: page-enter 0.4s ease both;
 }
 
 .page-curtain {
-  position: fixed;
-  inset: 0;
-  background: linear-gradient(135deg, #1a1410, #2a1f14);
-  z-index: 8000;
-  transform-origin: top;
-  animation: curtain-in 0.55s cubic-bezier(0.76, 0, 0.24, 1) both;
-  pointer-events: none;
+  display: none;
 }
 
 /* ══════════════════════════════════
@@ -148,7 +142,7 @@ html {
   width: 340px;
   height: 340px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(201,169,110,0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(176,125,158,0.1) 0%, transparent 70%);
   top: 0;
   left: 0;
   transform: translate(0, 0);

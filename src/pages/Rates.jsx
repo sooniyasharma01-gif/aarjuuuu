@@ -3,13 +3,14 @@ import useScrollReveal from "../hooks/useScrollReveal";
 import g8Img from "../assets/GalleryImg/g8.jpeg";
 
 const rates = [
-  { duration: "1 Hour", price: "£130" },
+    { duration: "30 minutes", price: "£70" },
+  { duration: "1 Hour", price: "£120" },
   { duration: "90 Minutes", price: "£180" },
-  { duration: "2 Hours", price: "£220", tag: "★ preferred first date minimum", preferred: true },
-  { duration: "3 Hours", price: "£320" },
+  { duration: "2 Hours", price: "£230", tag: "★ preferred first date minimum", preferred: true },
+  { duration: "3 Hours", price: "£340" },
   { duration: "4 Hours", price: "£420" },
   { duration: "5 Hours", price: "£550" },
-  { duration: "Overnight — 8 Hours", price: "£820" },
+  { duration: "Overnight — 8 Hours", price: "£680" },
 ];
 
 const testimonials = [
@@ -50,9 +51,9 @@ export default function Rates() {
 
       {/* PROFILE IMAGE */}
       <div className="rates-profile-img">
-        <img src={g8Img} alt="Teena" />
+        <img src={g8Img} alt="Aarju" />
         <div className="rates-profile-overlay">
-          <span>teenauk.com</span>
+          <span>yoursaarju.com</span>
         </div>
       </div>
 
@@ -73,7 +74,7 @@ export default function Rates() {
         <p className="deposit-card-title">Booking & Deposit</p>
         <div className="deposit-row">
           <span className="deposit-icon">💳</span>
-          <span>A <strong>£70 deposit</strong> is due via <strong>Indian Bank Transfer / UPI</strong> at the time of booking — this goes towards your total. The remainder is also due via <strong>Indian Bank Transfer / UPI</strong> prior to meeting.</span>
+          <span>A <strong>£40 deposit</strong> is due via <strong>Indian Bank Transfer / UPI</strong> at the time of booking — this goes towards your total. The remainder is also due via <strong>Indian Bank Transfer / UPI</strong> prior to meeting.</span>
         </div>
         <div className="deposit-row">
           <span className="deposit-icon">⏰</span>

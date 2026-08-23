@@ -3,7 +3,7 @@
   background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-top: 1px solid rgba(201, 169, 110, 0.2);
+  border-top: 1px solid rgba(176, 125, 158, 0.2);
   margin-top: auto;
 }
 
@@ -38,7 +38,7 @@
   font-size: 11px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #c9a96e;
+  color: #b07d9e;
 }
 
 /* NAV */
@@ -62,7 +62,7 @@
 
 .footer-nav a:hover,
 .footer-nav a.active {
-  color: #c9a96e;
+  color: #b07d9e;
 }
 
 /* ── DIVIDER ── */
@@ -78,13 +78,13 @@
   content: '';
   flex: 1;
   height: 1px;
-  background: linear-gradient(to right, transparent, rgba(201,169,110,0.4), transparent);
+  background: linear-gradient(to right, transparent, rgba(176,125,158,0.4), transparent);
 }
 
 .footer-diamond {
   width: 6px;
   height: 6px;
-  background: #c9a96e;
+  background: #b07d9e;
   transform: rotate(45deg);
   flex-shrink: 0;
 }
@@ -115,7 +115,7 @@
 .footer-privacy {
   font-family: 'DM Sans', sans-serif;
   font-size: 12px;
-  color: #c9a96e;
+  color: #b07d9e;
   text-decoration: none;
   letter-spacing: 0.5px;
   transition: opacity 0.2s;

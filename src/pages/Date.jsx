@@ -125,7 +125,7 @@ export default function Date() {
           a simple hello — so don't hesitate to reach out. I respond to
           genuine, respectful enquiries with care and promptness.
         </p>
-        <div className="date-closing-sig">Teena</div>
+        <div className="date-closing-sig">Aarju</div>
       </div>
 
     </div>

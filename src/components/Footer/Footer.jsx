@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="footer-top">
 
           <div className="footer-brand">
-            <p className="footer-logo">Teena</p>
+            <p className="footer-logo">Aarju</p>
             <p className="footer-tagline">Refined · Discreet · Unforgettable</p>
           </div>
 
@@ -38,7 +38,7 @@ export default function Footer() {
         {/* BOTTOM ROW */}
         <div className="footer-bottom">
           <p className="footer-copy">
-            © {new Date().getFullYear()} Teena &nbsp;·&nbsp; United Kingdom &nbsp;·&nbsp; All rights reserved.
+            © {new Date().getFullYear()} Aarju &nbsp;·&nbsp; United Kingdom &nbsp;·&nbsp; All rights reserved.
           </p>
           <div className="footer-bottom-right">
             <NavLink to="/privacy" className="footer-privacy">Privacy Policy</NavLink>

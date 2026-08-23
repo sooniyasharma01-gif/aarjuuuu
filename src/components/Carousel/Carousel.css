@@ -63,7 +63,7 @@
 
 .carousel-btn:hover {
   background: rgba(255,255,255,0.28);
-  transform: translateY(-50%) scale(1.05);
+  transform: translateY(-50%);
 }
 
 .carousel-btn-prev { left: 14px; }
@@ -92,8 +92,8 @@
 }
 
 .carousel-dot.active {
-  background: #c9a96e;
-  transform: scale(1.4);
+  background: #b07d9e;
+  transform: none;
 }
 
 @media (max-width: 900px) {

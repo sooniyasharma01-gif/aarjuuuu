@@ -16,7 +16,7 @@
   font-size: 11px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: #c9a96e;
+  color: #b07d9e;
   margin-bottom: 14px;
 }
 
@@ -41,18 +41,18 @@
 .np-hero-line span {
   height: 1px;
   width: 50px;
-  background: linear-gradient(to right, transparent, #c9a96e);
+  background: linear-gradient(to right, transparent, #b07d9e);
 }
 
 .np-hero-line span:last-child {
-  background: linear-gradient(to left, transparent, #c9a96e);
+  background: linear-gradient(to left, transparent, #b07d9e);
 }
 
 .np-hero-line em {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
   font-size: 14px;
-  color: #c9a96e;
+  color: #b07d9e;
   letter-spacing: 2px;
 }
 
@@ -71,7 +71,7 @@
   font-size: 11px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: #c9a96e;
+  color: #b07d9e;
   text-align: center;
   margin-bottom: 28px;
 }
@@ -87,7 +87,7 @@
 .contact-card {
   background: rgba(255,255,255,0.65);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(201,169,110,0.2);
+  border: 1px solid rgba(176,125,158,0.2);
   border-radius: 18px;
   padding: 32px 24px;
   text-align: center;
@@ -149,7 +149,7 @@
 
 .contact-note {
   background: rgba(255,255,255,0.55);
-  border: 1px solid rgba(201,169,110,0.18);
+  border: 1px solid rgba(176,125,158,0.18);
   border-radius: 12px;
   padding: 18px 24px;
   font-family: 'DM Sans', sans-serif;
@@ -163,7 +163,7 @@
 .screening-why {
   background: rgba(255,255,255,0.65);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(201,169,110,0.2);
+  border: 1px solid rgba(176,125,158,0.2);
   border-radius: 18px;
   padding: 36px 40px;
   margin-bottom: 52px;
@@ -192,7 +192,7 @@
   gap: 0;
   background: rgba(255,255,255,0.65);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(201,169,110,0.2);
+  border: 1px solid rgba(176,125,158,0.2);
   border-radius: 18px;
   overflow: hidden;
   margin-bottom: 36px;
@@ -204,7 +204,7 @@
   gap: 24px;
   align-items: flex-start;
   padding: 24px 32px;
-  border-bottom: 1px solid rgba(201,169,110,0.1);
+  border-bottom: 1px solid rgba(176,125,158,0.1);
 }
 
 .screening-step:last-child { border-bottom: none; }
@@ -213,7 +213,7 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: 28px;
   font-weight: 300;
-  color: #c9a96e;
+  color: #b07d9e;
   min-width: 36px;
   line-height: 1.3;
 }
@@ -236,8 +236,8 @@
 
 .screening-bottom {
   text-align: center;
-  background: linear-gradient(135deg, rgba(201,169,110,0.08), rgba(255,255,255,0.5));
-  border: 1px solid rgba(201,169,110,0.25);
+  background: linear-gradient(135deg, rgba(176,125,158,0.08), rgba(255,255,255,0.5));
+  border: 1px solid rgba(176,125,158,0.25);
   border-radius: 18px;
   padding: 40px 32px;
 }
@@ -267,7 +267,7 @@
   gap: 0;
   background: rgba(255,255,255,0.65);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(201,169,110,0.2);
+  border: 1px solid rgba(176,125,158,0.2);
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(180,140,60,0.06);
@@ -275,7 +275,7 @@
 
 .faq-item {
   padding: 20px 28px;
-  border-bottom: 1px solid rgba(201,169,110,0.1);
+  border-bottom: 1px solid rgba(176,125,158,0.1);
   cursor: pointer;
   transition: background 0.2s;
 }
@@ -283,7 +283,7 @@
 .faq-item:last-child { border-bottom: none; }
 
 .faq-item:hover, .faq-item.open {
-  background: rgba(201,169,110,0.05);
+  background: rgba(176,125,158,0.05);
 }
 
 .faq-question {
@@ -299,7 +299,7 @@
 
 .faq-icon {
   font-size: 22px;
-  color: #c9a96e;
+  color: #b07d9e;
   flex-shrink: 0;
   font-family: 'DM Sans', sans-serif;
 }
@@ -323,7 +323,7 @@
   gap: 0;
   background: rgba(255,255,255,0.65);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(201,169,110,0.2);
+  border: 1px solid rgba(176,125,158,0.2);
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(180,140,60,0.06);
@@ -334,7 +334,7 @@
   align-items: center;
   gap: 16px;
   padding: 16px 28px;
-  border-bottom: 1px solid rgba(201,169,110,0.1);
+  border-bottom: 1px solid rgba(176,125,158,0.1);
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -380,7 +380,7 @@
   gap: 14px;
   align-items: flex-start;
   background: rgba(255,255,255,0.6);
-  border: 1px solid rgba(201,169,110,0.15);
+  border: 1px solid rgba(176,125,158,0.15);
   border-radius: 14px;
   padding: 18px 20px;
   font-family: 'DM Sans', sans-serif;
@@ -394,8 +394,8 @@
 
 .avail-cta {
   text-align: center;
-  background: linear-gradient(135deg, rgba(201,169,110,0.08), rgba(255,255,255,0.5));
-  border: 1px solid rgba(201,169,110,0.25);
+  background: linear-gradient(135deg, rgba(176,125,158,0.08), rgba(255,255,255,0.5));
+  border: 1px solid rgba(176,125,158,0.25);
   border-radius: 18px;
   padding: 44px 32px;
 }
@@ -426,7 +426,7 @@
 .journal-card {
   background: rgba(255,255,255,0.65);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(201,169,110,0.2);
+  border: 1px solid rgba(176,125,158,0.2);
   border-radius: 18px;
   padding: 32px 28px;
   box-shadow: 0 4px 20px rgba(180,140,60,0.06);
@@ -451,8 +451,8 @@
   font-size: 10px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #c9a96e;
-  background: rgba(201,169,110,0.1);
+  color: #b07d9e;
+  background: rgba(176,125,158,0.1);
   padding: 4px 10px;
   border-radius: 100px;
 }
@@ -485,7 +485,7 @@
   font-family: 'DM Sans', sans-serif;
   font-size: 12px;
   letter-spacing: 1.5px;
-  color: #c9a96e;
+  color: #b07d9e;
   text-transform: uppercase;
 }
 
@@ -500,7 +500,7 @@
 .wishlist-card {
   background: rgba(255,255,255,0.65);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(201,169,110,0.2);
+  border: 1px solid rgba(176,125,158,0.2);
   border-radius: 18px;
   padding: 28px 22px;
   box-shadow: 0 4px 20px rgba(180,140,60,0.06);
@@ -547,7 +547,7 @@
   content: '·';
   position: absolute;
   left: 0;
-  color: #c9a96e;
+  color: #b07d9e;
 }
 
 .wishlist-note {
@@ -558,7 +558,7 @@
   font-weight: 300;
   color: #888;
   padding: 20px;
-  border: 1px solid rgba(201,169,110,0.15);
+  border: 1px solid rgba(176,125,158,0.15);
   border-radius: 12px;
   background: rgba(255,255,255,0.5);
 }

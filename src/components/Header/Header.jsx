@@ -19,7 +19,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header-inner">
-        <NavLink to="/" className="logo" onClick={close}>Teena</NavLink>
+        <NavLink to="/" className="logo" onClick={close}>Aarju</NavLink>
 
         <nav className="nav">
           <NavLink to="/intro">Intro</NavLink>

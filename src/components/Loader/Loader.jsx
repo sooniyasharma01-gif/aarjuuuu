@@ -6,7 +6,7 @@ export default function Loader() {
       <div className="loader-inner">
         <p className="loader-name">Aarju</p>
         <div className="loader-bar"><div className="loader-fill" /></div>
-        <p className="loader-sub">United Kingdom</p>
+        <p className="loader-sub">Australia</p>
       </div>
     </div>
   );

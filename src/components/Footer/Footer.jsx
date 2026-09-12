@@ -38,7 +38,7 @@ export default function Footer() {
         {/* BOTTOM ROW */}
         <div className="footer-bottom">
           <p className="footer-copy">
-            © {new Date().getFullYear()} Aarju &nbsp;·&nbsp; United Kingdom &nbsp;·&nbsp; All rights reserved.
+            © {new Date().getFullYear()} Aarju &nbsp;·&nbsp; Australia &nbsp;·&nbsp; All rights reserved.
           </p>
           <div className="footer-bottom-right">
             <NavLink to="/privacy" className="footer-privacy">Privacy Policy</NavLink>

@@ -44,7 +44,7 @@ const marqueeItems = [
   "✦",
   "Complete Discretion",
   "✦",
-  "United Kingdom",
+  "Australia",
   "✦",
   "The Girlfriend Experience",
   "✦",
@@ -92,7 +92,7 @@ export default function Intro() {
           <Carousel images={carouselImages} />
           <div className="intro-image-badge">
             <p>Based in</p>
-            <strong>United Kingdom</strong>
+            <strong>Australia</strong>
           </div>
           <div className="last-seen-badge">
             <span className="last-seen-dot" />

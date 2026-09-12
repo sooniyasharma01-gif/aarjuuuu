@@ -1,9 +1,6 @@
 import "./NewPages.css";
 import useScrollReveal from "../hooks/useScrollReveal";
 
-const WA_URL = "https://wa.me/447848433367?text=Hi%20Aarju%2C%20I%27d%20love%20to%20connect%20with%20you.";
-const TG_URL = "https://t.me/447848433367";
-
 export default function Contact() {
   const hero = useScrollReveal();
   const card = useScrollReveal();
@@ -15,24 +12,12 @@ export default function Contact() {
         <h2>Let's Connect</h2>
         <div className="np-hero-line"><span /><em>Discreet · Respectful · Genuine</em><span /></div>
         <p className="np-intro">
-          The best way to reach me is via WhatsApp. I respond personally to every
-          message — please introduce yourself briefly and let me know what you have in mind.
+          I respond personally to every message — please introduce yourself briefly
+          and let me know what you have in mind.
         </p>
       </div>
 
       <div className="contact-grid reveal" ref={card}>
-
-        <div className="contact-card">
-          <span className="contact-icon">💬</span>
-          <h4>WhatsApp</h4>
-          <p>My preferred method of contact. Quick, private, and direct.</p>
-          <a href={WA_URL} target="_blank" rel="noopener noreferrer" className="contact-btn">
-            Message on WhatsApp
-          </a>
-          <a href={TG_URL} target="_blank" rel="noopener noreferrer" className="contact-btn contact-btn-tg">
-            Message on Telegram
-          </a>
-        </div>
 
         <div className="contact-card">
           <span className="contact-icon">✦</span>

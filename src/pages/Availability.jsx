@@ -1,8 +1,6 @@
 import "./NewPages.css";
 import useScrollReveal from "../hooks/useScrollReveal";
 
-const WA_URL = "https://wa.me/447848433367?text=Hi%20Aarju%2C%20I%27d%20like%20to%20check%20your%20availability.";
-
 const schedule = [
   { day: "Monday",    status: "available" },
   { day: "Tuesday",   status: "available" },
@@ -57,20 +55,17 @@ export default function Availability() {
         </div>
         <div className="avail-note-item">
           <span>✈️</span>
-          <p><strong>Travel:</strong> Available for UK travel and international FMTY with sufficient notice.</p>
+          <p><strong>Travel:</strong> Available for travel and international FMTY with sufficient notice.</p>
         </div>
         <div className="avail-note-item">
           <span>⚡</span>
-          <p><strong>Schedule changes:</strong> Availability updates regularly — always confirm via WhatsApp.</p>
+          <p><strong>Schedule changes:</strong> Availability updates regularly — reach out directly to confirm.</p>
         </div>
       </div>
 
       <div className="avail-cta reveal" ref={cta}>
         <h3>Check My Current Availability</h3>
         <p>For the most up-to-date availability, reach out directly.</p>
-        <a href={WA_URL} target="_blank" rel="noopener noreferrer" className="contact-btn">
-          Message on WhatsApp
-        </a>
       </div>
     </div>
   );

@@ -3,22 +3,21 @@ import useScrollReveal from "../hooks/useScrollReveal";
 import g8Img from "../assets/GalleryImg/g8.jpeg";
 
 const rates = [
-    { duration: "30 minutes", price: "£70" },
-  { duration: "1 Hour", price: "£120" },
-  { duration: "90 Minutes", price: "£180" },
-  { duration: "2 Hours", price: "£230", tag: "★ preferred first date minimum", preferred: true },
-  { duration: "3 Hours", price: "£340" },
-  { duration: "4 Hours", price: "£420" },
-  { duration: "5 Hours", price: "£550" },
-  { duration: "Overnight — 8 Hours", price: "£680" },
+    { duration: "30 minutes", price: "$200" },
+  { duration: "1 Hour", price: "$350" },
+  { duration: "90 Minutes", price: "$450" },
+  { duration: "2 Hours", price: "$500", tag: "★ preferred first date minimum", preferred: true },
+  { duration: "4 Hours", price: "$800" },
+  { duration: "5 Hours", price: "$900" },
+  { duration: "Overnight — 8 Hours", price: "$1500" },
 ];
 
 const testimonials = [
-  { text: "Truly unforgettable. Worth every penny.", by: "J.M., London" },
+  { text: "Truly unforgettable. Worth every penny.", by: "J.M., Melbourne " },
   { text: "The most natural, effortless evening I've had in years.", by: "S.P., London" },
-  { text: "Elegant, warm, and completely genuine.", by: "R.A., Manchester" },
+  { text: "Elegant, warm, and completely genuine.", by: "R.A., Perth" },
   { text: "Exceeded every expectation. Absolutely wonderful.", by: "D.K., Dubai" },
-  { text: "Impeccable discretion and stunning presence.", by: "M.R., Edinburgh" },
+  { text: "Impeccable discretion and stunning presence.", by: "M.R., Wagga Wagga" },
   { text: "Time just disappeared. Highly recommend.", by: "T.H., Birmingham" },
 ];
 
@@ -74,7 +73,7 @@ export default function Rates() {
         <p className="deposit-card-title">Booking & Deposit</p>
         <div className="deposit-row">
           <span className="deposit-icon">💳</span>
-          <span>A <strong>£40 deposit</strong> is due via <strong>Indian Bank Transfer / UPI</strong> at the time of booking — this goes towards your total. The remainder is also due via <strong>Indian Bank Transfer / UPI</strong> prior to meeting.</span>
+          <span>A <strong>$100 deposit</strong> is due via <strong>Indian Bank Transfer / PayID</strong> at the time of booking — this goes towards your total. The remainder is also due via <strong>Bank Transfer / PayID</strong> prior to meeting.</span>
         </div>
         <div className="deposit-row">
           <span className="deposit-icon">⏰</span>
